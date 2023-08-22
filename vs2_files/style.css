@@ -180,7 +180,7 @@ button,.link-button{
     font-size:20px;
     padding:15px 35px;
     display:inline-block;
-    color:inherit;
+    color:greenyellow;
     cursor:pointer
 }
 .link-button:hover{
@@ -244,10 +244,10 @@ button,.link-button{
     background-color:initial
 }
 .download-button,.navbar .navbar-right .link-button{
-    background-color:#0066b8
+    background-color:#373277
 }
 .download-button:hover,.navbar .navbar-right .link-button:hover,.download-button:active,.navbar .navbar-right .link-button:active,.download-button:focus,.navbar .navbar-right .link-button:focus{
-    background-color:#005ba4
+    background-color:#373277
 }
 .action-button{
     background-color:#373277
@@ -746,8 +746,7 @@ body{
     margin-bottom:135px
 }
 footer{
-    position:absolute;
-    left:0;
+    left:500px;
     bottom:0;
     height:135px;
     width:100%
@@ -933,8 +932,8 @@ footer .copyright .logo{
     margin:20px 0 5px;
     padding:10px 0;
     font-size:1.8rem;
-    width:240px;
-    background-color:#0066b8
+    width:276px;
+    background-color:#5b5790
 }
 .alt-downloads .link-button small{
     display:block;
@@ -1458,15 +1457,15 @@ pre.shiki .language-id{
 }
 .home .jumbotron.home .download-hero .link-button{
     color:#fff;
-    margin:2.5rem 0 0 0;
-    background-color:#0066b8;
+
+    background-color: purple;
     height:6.5rem
 }
 .home .jumbotron.home .download-hero .link-button img{
     top:0
 }
 .home .jumbotron.home .download-hero .link-button:hover,.home .jumbotron.home .download-hero .link-button:active,.home .jumbotron.home .download-hero .link-button:focus{
-    background-color:#005ba4
+    background-color:purple;
 }
 .home .jumbotron.home .download-hero.win .primary-buttons .dlink[data-os=win]{
     display:inline-block
@@ -1513,7 +1512,7 @@ pre.shiki .language-id{
     color:#000
 }
 .home .jumbotron.home .download-hero #download-matrix a{
-    color:#0071bc
+    color:purple;
 }
 .home .jumbotron.home .download-hero #download-matrix table{
     width:100%
@@ -1574,13 +1573,13 @@ pre.shiki .language-id{
 .home .jumbotron.home .download-hero #download-matrix table .os .linux-32-bit{
     display:block;
     font-size:1rem;
-    color:#0072be;
+    color: purple;
     cursor:pointer
 }
 .home .jumbotron.home .download-hero #download-matrix table .os .windows-32-bit{
     display:block;
     font-size:1rem;
-    color:#0072be;
+    color:purple;
     cursor:pointer
 }
 .home .jumbotron.home .download-hero #download-matrix table .download-type{
@@ -1992,14 +1991,14 @@ pre.shiki .language-id{
 .learn .jumbotron.home .download-hero .link-button{
     color:#fff;
     margin:2.5rem 0 0 0;
-    background-color:#0066b8;
+    background-color:mediumpurple;
     height:6.5rem
 }
 .learn .jumbotron.home .download-hero .link-button img{
     top:0
 }
 .learn .jumbotron.home .download-hero .link-button:hover,.learn .jumbotron.home .download-hero .link-button:active,.learn .jumbotron.home .download-hero .link-button:focus{
-    background-color:#005ba4
+    background-color:purple;
 }
 .learn .jumbotron.home .download-hero.win .primary-buttons .dlink[data-os=win]{
     display:inline-block
@@ -2046,7 +2045,7 @@ pre.shiki .language-id{
     color:#000
 }
 .learn .jumbotron.home .download-hero #download-matrix a{
-    color:#0071bc
+    color:mediumpurple;
 }
 .learn .jumbotron.home .download-hero #download-matrix table{
     width:100%
@@ -2107,13 +2106,13 @@ pre.shiki .language-id{
 .learn .jumbotron.home .download-hero #download-matrix table .os .linux-32-bit{
     display:block;
     font-size:1rem;
-    color:#0072be;
+    color:purple;
     cursor:pointer
 }
 .learn .jumbotron.home .download-hero #download-matrix table .os .windows-32-bit{
     display:block;
     font-size:1rem;
-    color:#0072be;
+    color:purple;
     cursor:pointer
 }
 .learn .jumbotron.home .download-hero #download-matrix table .download-type{
@@ -3684,4 +3683,15 @@ pre.shiki .language-id{
 }
 strong,b{
     font-weight:600
+}
+
+
+
+
+.hsg-footer__logo {
+  order: 0;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
